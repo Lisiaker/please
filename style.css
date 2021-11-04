@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+*{
+    box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-family: 'Montserrat-bold' sans-serif;
+}
+body{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-image:url(/Users/yarovoy/Desktop/coursesdistance/3.11.21dz/ahhahahah.png);
+  background-size:100%;
+  margin:0px;
+  padding:0px;
+}
+.main{
+  width:1000px;
+  height:700px;
+  border-radius:6% 6% 6% 6% / 6% 6% 6% 6%;
+  display:flex;
+  flex-direction:row;
+  z-index:4;
+  margin-top:150px;
+}
+.soial{
+  border-radius:50%;
+  width:41px;
+  height:41px;
+  border:1px solid grey;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family: 'Montserrat-bold', sans-serif;
+  color:gray;
+}
+.soial:hover{
+  background-color: grey;
+  color:white;
+}
+.soial:hover .bold{
+  color:white;
+}
+a{
+  color:grey;
+  text-decoration: none;
+}
+.part1{
+  width:600px;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center;
+  margin-bottom:50px;
+  background:white;
+  border-radius:11% 0% 0% 11% / 7% 0% 0% 7%;
+}
+.tppart1{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  position:relative;
+  bottom:-20px;
+}
+.tppart2{
+  margin-top:50px;
+}
+.tpart3{
+  display:flex;
+  flex-direction:column;
+}
+input{
+  background-color:whitesmoke;
+  border:none;
+  margin-top:10px;
+  width:275px;
+  height:50px;
+  padding-left:10px;
+}
+.tpart1{
+  color:grey;
+}
+textarea{
+  width:275px;
+  height:70px;
+}
+.tpart4{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.tpart5{
+  margin-top:10px;
+}
+.tpart5 a{
+  border-bottom:1px dashed gray;
+}
+.css-button-shadow-border--green {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  background: rgb(60, 173, 173);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.css-button-shadow-border--green:hover {
+  background-color: #80ed99;
+}
+.css-button-shadow-border--green:active {
+  top: 2px;
+}
+.part2{
+  background-color: rgb(60, 173, 173);
+  width:400px;
+  border-radius:0% 11% 11% 0% / 0% 6% 6% 0%;
+  z-index:2;
+  color:white;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+}
+.ppart2{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin-left:10px;
+  font-size:20px;
+}
+.ppart3{
+  border-radius:80px;
+  border: 1px solid white;
+  width:125px;
+  height:50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
